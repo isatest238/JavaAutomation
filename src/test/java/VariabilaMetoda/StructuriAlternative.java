@@ -32,18 +32,18 @@ public class StructuriAlternative {
     public void numarParPozitivNegativ(int numar) {
         if (numar > 0) {
             if (numar % 2 == 0) {
-                System.out.println("numarul este par pozitiv");
+                System.out.println("numarul " +numar+ " este par pozitiv");
             } else {
-                System.out.println("numarul este impar pozitiv");
+                System.out.println("numarul " + numar+ " este impar pozitiv");
             }
         } else if (numar < 0) {
             if (numar % 2 == 0) {
-                System.out.println("numarul este par negativ");
+                System.out.println("numarul " + numar + " este par negativ");
             } else {
-                System.out.println("numarul este impar negativ");
+                System.out.println("numarul " + numar + " este impar negativ");
             }
         } else if (numar == 0) {
-            System.out.println("numarul este zero");
+            System.out.println("numarul " + numar + " este zero");
         }
     }
 
