@@ -23,10 +23,7 @@ public class Student {
     public Character Sex ;
     public Boolean Are_Diploma ;
 
-
-
-
 }
 
-
+// metoda cu return
 
