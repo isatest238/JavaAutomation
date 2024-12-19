@@ -12,6 +12,8 @@ public class Masina {
         dateMasina("Audi","Q3", 2007);
         dateMasina("BMW","X5", 2000);
         calculMedie (4.0,6.0);
+        System.out.println(getSalariu());
+
     }
 
     public void dateMasina (String param1, String param2, Integer param3){
@@ -30,6 +32,10 @@ public class Masina {
         System.out.println("Media celor doua numere este:" + media);
 
     }
-
+    // metoda cu return
+    public Integer getSalariu (){
+        Integer salariu = 2500;
+        return salariu;
+    }
 }
 

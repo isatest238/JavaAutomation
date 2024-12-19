@@ -9,11 +9,12 @@ public class StructuriAlternative {
 //        metodaVerificareNumar(2);
 //        metodaVerificareNumar(7);
 //        metodaVerificareNumar(5);
-        numarParPozitivNegativ(0);
-        numarParPozitivNegativ(100);
-        numarParPozitivNegativ(51);
-        numarParPozitivNegativ(-1);
-        numarParPozitivNegativ(-2);
+//        numarParPozitivNegativ(0);
+//        numarParPozitivNegativ(100);
+//        numarParPozitivNegativ(51);
+//        numarParPozitivNegativ(-1);
+//        numarParPozitivNegativ(-2);
+        zileSaptamane(3);
     }
 
 
@@ -46,6 +47,27 @@ public class StructuriAlternative {
             System.out.println("numarul " + numar + " este zero");
         }
     }
+
+    // exemplu switch case
+    public void zileSaptamane (Integer zi){
+        switch (zi){
+            case 1:
+                System.out.println("Astazi este luni");
+                break;
+            case 2:
+                System.out.println(("Astazi este marti"));
+                break;
+            case 3:
+                System.out.println("Astazi este miercuri");
+                break;
+            case 4:
+                System.out.println("Astazi este joi");
+                break;
+            default:
+                System.out.println("Nu mai sunt cazuri");
+        }
+    }
+
 
 
 

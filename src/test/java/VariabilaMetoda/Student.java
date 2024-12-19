@@ -25,5 +25,3 @@ public class Student {
 
 }
 
-// metoda cu return
-
