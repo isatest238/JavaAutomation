@@ -1,6 +1,11 @@
 package VariabilaMetoda;
 
+import org.testng.annotations.Test;
+
+import java.util.Scanner;
+
 public class Student {
+
     //Class = sablon care defineste propietatile si comportamentul unei entitati specifice (e.g Student)
     // Intr un fisier Java putem avea mai multe clase diferentiate pe baza numelui (nu este best practice sa avem
     // mai multe clase cu acelasi nume
@@ -14,14 +19,17 @@ public class Student {
     // in mom cand definim o variabila nu este obligatoriu sa ii dam o valoare
 
 
-    public String Nume ;
-    public String Prenume ;
-    public Integer Varsta ;
-    public String Adresa ;
-    public Double Inaltime ; // calcule f precise cu mai multe zecimale 64 biti
-    public Float Greutate ; // 32 biti
-    public Character Sex ;
-    public Boolean Are_Diploma ;
-
+    public String Nume;
+    public String Prenume;
+    public Integer Varsta;
+    public String Adresa;
+    public Double Inaltime; // calcule f precise cu mai multe zecimale 64 biti
+    public Float Greutate; // 32 biti
+    public Character Sex;
+    public Boolean Are_Diploma;
 }
+
+
+
+
 

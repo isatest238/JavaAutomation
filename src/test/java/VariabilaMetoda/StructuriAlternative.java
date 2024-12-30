@@ -2,6 +2,8 @@ package VariabilaMetoda;
 
 import org.testng.annotations.Test;
 
+import java.util.Scanner;
+
 public class StructuriAlternative {
     // structuri alternative = if - then - else; switch - case
     @Test
@@ -14,7 +16,8 @@ public class StructuriAlternative {
 //        numarParPozitivNegativ(51);
 //        numarParPozitivNegativ(-1);
 //        numarParPozitivNegativ(-2);
-        zileSaptamane(3);
+        //       zileSaptamane(3);
+
     }
 
 
@@ -33,9 +36,9 @@ public class StructuriAlternative {
     public void numarParPozitivNegativ(int numar) {
         if (numar > 0) {
             if (numar % 2 == 0) {
-                System.out.println("numarul " +numar+ " este par pozitiv");
+                System.out.println("numarul " + numar + " este par pozitiv");
             } else {
-                System.out.println("numarul " + numar+ " este impar pozitiv");
+                System.out.println("numarul " + numar + " este impar pozitiv");
             }
         } else if (numar < 0) {
             if (numar % 2 == 0) {
@@ -49,8 +52,8 @@ public class StructuriAlternative {
     }
 
     // exemplu switch case
-    public void zileSaptamane (Integer zi){
-        switch (zi){
+    public void zileSaptamane(Integer zi) {
+        switch (zi) {
             case 1:
                 System.out.println("Astazi este luni");
                 break;
@@ -67,9 +70,6 @@ public class StructuriAlternative {
                 System.out.println("Nu mai sunt cazuri");
         }
     }
-
-
-
 
 }
 

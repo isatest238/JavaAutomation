@@ -2,6 +2,8 @@ package VariabilaMetoda;
 
 import org.testng.annotations.Test;
 
+import java.util.Scanner;
+
 public class Masina {
     public String marca;
     public String model;
@@ -9,10 +11,12 @@ public class Masina {
 
     @Test
     public void metodaTest(){
-        dateMasina("Audi","Q3", 2007);
+        /*dateMasina("Audi","Q3", 2007);
         dateMasina("BMW","X5", 2000);
         calculMedie (4.0,6.0);
-        System.out.println(getSalariu());
+        System.out.println(getSalariu());*/
+
+
 
     }
 
@@ -37,5 +41,6 @@ public class Masina {
         Integer salariu = 2500;
         return salariu;
     }
+
 }
 
