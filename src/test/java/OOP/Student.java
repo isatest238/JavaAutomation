@@ -23,6 +23,12 @@ public class Student extends Persoana {
 
     }
 
+    @Override
+    public void mananca() {
+        System.out.println("Studentul mananca cand apuca");
+        super.mananca();
+    }
+
     public void absolvire() {
         System.out.println("Studentul cu numele " + getNume() + "si Prenumele" + getPrenume() + "a absolvit");
     }
