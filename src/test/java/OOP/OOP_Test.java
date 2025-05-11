@@ -9,14 +9,21 @@ public class OOP_Test {
 //        Cristian.infoStudent();
 //        Cristian.mananca();
 
-        Angajat Constantin = new Angajat("Georg", "Constantin", 33, "Endava", 5, 25);
-        Constantin.infoAngajat();
+//        Angajat Constantin = new Angajat("Georg", "Constantin", 33, "Endava", 5, 25);
+//        Constantin.infoAngajat();
+//
+//        Constantin.promovare();
+//
+//        Constantin.mananca();
+//        Constantin.marire();
+//        Constantin.marire(10);
+//        Constantin.marire("ML");
 
-        Constantin.promovare();
+        Somer Ionel = new Somer("Ionel", "Popescu", 39, 20, "Profesor");
+        Ionel.infoSomer();
+        Ionel.mananca();
 
-        Constantin.mananca();
-        Constantin.marire();
-        Constantin.marire(10);
-        Constantin.marire("ML");
+
+
     }
 }

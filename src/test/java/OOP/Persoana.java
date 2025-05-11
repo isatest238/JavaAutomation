@@ -26,6 +26,14 @@ public class Persoana {
     // ABSTRACTIZAREA = reducerea unui element complex la un element mai simplu
     // (reducerea completa a implementarii metodelor lasand doar numele functiilor, parametrii si tipul returnat)
     // Abstractizarea se poate obtine folosind CLASE ABSTRACTE SI/SAU INTERFETE
+    // Clase abstracte = sunt utilizate pentru a declara caracteristici comune unor subclase
+    // O clasa abstracta nu poate sa fie instantiata, ea poate sa fie utilizata doar ca superclasa pentru alte clase care extind clasa abstracta
+    // (clasa abstracta poate fi definita folosind cuvantul/ modificatorul "abstract"
+    // O clasa abstracta poate sa contina atribute si metode pe langa clasa abstracta
+
+    // INTERFATA = ofera raspuns lipsei mostenirii multiple
+    // INTERFATA creaza un protocol pe care clasele trebuie sa le implementeze
+    // INTERFATA contine toate metodele abstracte (e o clasa pur abstracta)
 
 
     private String nume;
