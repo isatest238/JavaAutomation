@@ -1,6 +1,6 @@
 package OOP;
 
-public class Student extends Persoana {
+public class Student extends Persoana implements Student_Interfata{
 
     private String facultate;
     private String an;
@@ -21,6 +21,12 @@ public class Student extends Persoana {
         System.out.println("Anul este: " + an);
         System.out.println("Studentul are bursa? " + bursa);
 
+    }
+
+    @Override
+    public void mananca() {
+        System.out.println("Studentul mananca cand apuca");
+        super.mananca();
     }
 
     public void absolvire() {
@@ -45,5 +51,20 @@ public class Student extends Persoana {
 
     public boolean isBursa() {
         return bursa;
+    }
+
+    @Override
+    public void mergeLaCurs() {
+        System.out.println("Studentul merge la curs");
+    }
+
+    @Override
+    public void sustineExamene() {
+        System.out.println("Studentul are sesiune");
+    }
+
+    @Override
+    public void mergeLaCafea() {
+        System.out.println("Studentul merge la cafea");
     }
 }
