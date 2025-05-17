@@ -24,6 +24,10 @@ public class Somer extends Persoana {
         super.mananca();
     }
 
+    public void ultimaOcupatie (String ultimaOcupatie){
+        System.out.println("Somerul a avult ultima ocupatie: " + ultimaOcupatie);
+    }
+
     public Integer getZileSomaj() {
         return zileSomaj;
     }
@@ -32,7 +36,11 @@ public class Somer extends Persoana {
         return ultimaOcupatie;
     }
 
+    public void setZileSomaj(Integer zileSomaj) {
+        this.zileSomaj = zileSomaj;
+    }
 
-
-
+    public void setUltimaOcupatie(String ultimaOcupatie) {
+        this.ultimaOcupatie = ultimaOcupatie;
+    }
 }
