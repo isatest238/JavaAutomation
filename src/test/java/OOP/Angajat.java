@@ -2,7 +2,16 @@ package OOP;
 
 public class Angajat extends Persoana implements Angajat_Interfata{
 
-    private String firma;
+    // MODIFICATORI DE ACCESS
+    // PUBLIC > codul se poate accesa de oricunde si din orice clasa
+    // PRIVATE > codul se poate accesa doar din clase unde s a scris
+    // PROTECTED > codul se poate accesa doar din pachetul in care s a scris codul dar si de catre subclase (MOSTENIRE)
+    // DEFAULT > codul se poate accesa doar din pachetul din care s a scris codul
+    // Intra pe DEFAULT daca nu se specifica un alt modificator de acces
+
+
+
+    protected String firma;
     private Integer experienta;
     private Integer zileConcediu;
 

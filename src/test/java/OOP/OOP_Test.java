@@ -8,6 +8,7 @@ public class OOP_Test {
         Student Cristian = new Student("Vlades", "Cristian", 28, "UBB", "2", true);
         Cristian.infoStudent();
         Cristian.mananca();
+        Cristian.infoPersoana();
 
 
         Angajat Constantin = new Angajat("Georg", "Constantin", 33, "Endava", 5, 25);
@@ -19,6 +20,11 @@ public class OOP_Test {
         Constantin.marire();
         Constantin.marire(10);
         Constantin.marire("ML");
+
+        Constantin.firma = "endava";
+
+
+
 
         Somer Ionel = new Somer("Ionel", "Popescu", 39, 20, "Profesor");
         Ionel.infoSomer();
